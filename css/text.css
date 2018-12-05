@@ -1,0 +1,168 @@
+*{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+.li-group{
+    width:203px;
+    padding-top:9px;
+    background-color: #6E6568;
+    padding-bottom: 20px;
+    text-align: center;font-weight: 400;font-size: 14px;
+}
+.li-group li{
+    width:180px;
+    
+    padding-left:10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color:#fff;
+}
+.li-group li:hover{
+    background-color: #999395;
+}
+.li-group li a{
+    font-size: 14px;
+    text-decoration:none;
+    color:#fff;
+}
+.li-group li a:hover{
+    color:#c81623;
+}
+.main{
+    position:relative;
+}
+.js-nav{
+    display: none;
+    padding-top: 9px;
+    width:998px;
+    position:absolute;
+    top:0px;
+    left:190px;
+    background-color:#f7f7f7;
+    border:2px solid #f7f7f7;
+    box-shadow:2px 0 5px rgba(0,0,0,.3);
+}
+.js-nav .menuleft .menunav a{
+    display: inline-block;
+    background-color: #6e6568;
+    padding:0px 10px;
+    margin:0px 10px;
+    color:#fff;
+    height:24px;
+    line-height: 24px;
+    text-decoration:none;
+    font-size: 12px;
+}
+.js-nav .menuleft .menunav a:hover{
+    background-color:#5c5251;
+}
+.js-nav .menu-left-bottom dl{
+    /*background-color: red;*/
+    padding-left: 80px;
+    position: relative;
+}
+.menu-left-bottom dl dt{
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 70px;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.menu-left-bottom dt a{
+    text-decoration: none;
+    color:#000;
+    font-weight:bolder;
+}
+.menu-left-bottom dd{
+    overflow: hidden;
+    padding: 6px 0;
+    border-top: 1px solid #eeeeee;
+}
+.menu-left-bottom dd a{
+    font-size: 12px;
+    float: left;
+    margin: 4px 0;
+    padding: 0 10px;
+    height: 16px;
+    border-left: 1px solid #e0e0e0;
+    line-height: 16px;
+    white-space: nowrap;
+    text-decoration: none;
+    color:#000;
+}
+.js-nav .menuleft{
+    float:left;
+    width:800px;
+}
+.js-nav .menuright{
+    float:left;
+    width:198px;
+}
+.menu-left-bottom dd a:hover ,.menu-left-bottom dt a:hover{
+    color:#c81623;
+}
+
+/*图片轮播*/
+   .ul_img img{
+            width: 1000px;
+        }
+
+        .li_img {
+            width: 800px;
+            float: left;
+            list-style: none;
+        }
+
+        .ul_img {
+            width: 6000px;
+            padding: 0px;
+            margin: 0px;
+            transition: all 2s;
+        }
+
+        .main_div {
+            width: 800px;
+            overflow: hidden;
+            position: relative;
+            top: 100px;
+            left: 350px;
+        }
+
+        .arrows {
+            z-index: 9999;
+            position: absolute;
+            padding-top: 230px;
+            width: 800px;
+        }
+
+        .arrows span {
+            font-size: 3em;
+            color: seashell;
+        }
+
+        .arrows span:hover {
+            /*变小手*/
+            cursor: pointer;
+            background-color: rgba(192, 192, 192, 0.29);
+        }
+
+        .div_btn {
+            float: left;
+            border-radius: 100px;
+            background-color: aquamarine;
+            width: 60px;
+            height: 10px;
+            margin-left: 10px;
+            margin-top: 130px;
+        }
+
+        .div_btn:hover {
+            background-color: aqua;
+
+        }
+
